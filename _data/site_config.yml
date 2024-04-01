@@ -119,23 +119,23 @@ hide_single_unit: true
 ignored_disaggregations: []
 indicator_config_form:
   enabled: false
-  dropdowns: []
-  repository_link: /tree/develop/indicator-config
-  translation_link: ''
+  #dropdowns: []
+  #repository_link: /tree/develop/indicator-config
+  #translation_link: ''
 indicator_data_form:
-  enabled: false
-  repository_link: /tree/develop/data
+  #enabled: false
+  #repository_link: /tree/develop/data
 indicator_metadata_form:
   enabled: false
-  dropdowns: []
-  repository_link: /tree/develop/meta
-  translation_link: ''
-  language: ''
-  scopes:
-    - national
-    - global
-  exclude_fields: []
-  translated: false
+  #dropdowns: []
+  #repository_link: /tree/develop/meta
+  #translation_link: ''
+  #language: ''
+  #scopes:
+  #  - national
+  #  - global
+  #exclude_fields: []
+  #translated: false
 indicator_tabs:
   tab_1: ''
   tab_2: ''
