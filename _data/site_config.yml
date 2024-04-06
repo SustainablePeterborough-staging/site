@@ -222,7 +222,7 @@ progressive_web_app:
 proxy_indicators:
   label: ''
   description: ''
-remote_data_prefix: 'https://sustainablepeterborough.github.io/data/'
+remote_data_prefix: 'https://sustainablepeterborough-staging.github.io/data/'
 reporting_status:
   title: status.reporting_status
   description: status.description
