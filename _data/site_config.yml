@@ -118,7 +118,7 @@ hide_single_series: true
 hide_single_unit: true
 ignored_disaggregations: []
 indicator_config_form:
-  enabled: false
+  enabled: true
   dropdowns: []
   repository_link: /tree/develop/indicator-config
   translation_link: ''
