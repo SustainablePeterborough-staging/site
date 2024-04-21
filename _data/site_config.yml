@@ -226,7 +226,7 @@ metadata_tabs:
     description: 'This table provides metadata for a proxy local indicator closest to the corresponding global SDG indicator, as supported by data availability, or a newly established indicator deemed meaningful to the local context in support of this specific SDG. Please note that even when data supporting the global SDG indicator is fully available from local or Canadian statistics, this table should be consulted for additional information.'
 #  - scope: global
 #    title: indicator.global_metadata
-    description: indicator.global_metadata_blurb
+#    description: indicator.global_metadata_blurb
   - scope: sources
     title: indicator.sources
     description: ''
