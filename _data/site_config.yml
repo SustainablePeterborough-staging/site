@@ -74,11 +74,11 @@ date_formats: []
 disclaimer:
   phase: ''
   message: ''
-  hidden: false
+  hidden: true
 email_contacts:
-  questions: test@example.com
-  suggestions: test@example.com
-  functional: test@example.com
+  questions: info@sustainablepeterborough.ca
+  suggestions: info@sustainablepeterborough.ca
+  functional: info@sustainablepeterborough.ca
 empty_metadata_placeholder: ''
 empty_metadata_placeholder_sources: ''
 environment: staging
@@ -86,9 +86,9 @@ footer_language_toggle: none
 footer_menu:
   - path: /contact-us
     translation_key: menu.contact_us
-  - path: 'https://twitter.com/MyTwitterAccount'
+  - path: 'https://twitter.com/sustainableptbo'
     translation_key: general.twitter
-  - path: 'https://facebook.com/MyFacebookAccount'
+  - path: 'https://facebook.com/sustainablepeterborough'
     translation_key: general.facebook
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
@@ -155,7 +155,7 @@ indicator_metadata_form:
   language: ''
   scopes:
     - national
-    - global
+#    - global
   exclude_fields: []
   translated: false
 indicator_tabs:
@@ -220,8 +220,10 @@ menu:
 metadata_edit_url: metadata
 metadata_tabs:
   - scope: national
-    title: indicator.national_metadata
-    description: indicator.national_metadata_blurb
+#    title: indicator.national_metadata
+    title: 'Local Metadata'
+#    description: indicator.national_metadata_blurb
+    description: 'This table provides metadata for a proxy local indicator closest to the corresponding global SDG indicator, as supported by data availability, or a newly established indicator deemed meaningful to the local context in support of this specific SDG. Please note that even when data supporting the global SDG indicator is fully available from local or Canadian statistics, this table should be consulted for additional information.'
   - scope: global
     title: indicator.global_metadata
     description: indicator.global_metadata_blurb
