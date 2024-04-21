@@ -131,7 +131,9 @@ goal_image_base: 'https://open-sdg.org/sdg-translations/assets/img/goals'
 goal_image_extension: ''
 goals_page:
   title: general.goals
-  description: frontpage.instructions_shorter
+#  description: frontpage.instructions_shorter
+  description: >-
+    <p>Select each goal to view available data for the Greater Peterborough Area's global and localized indicators. This data platform is constantly evolving and developing so check back often. To submit data, please email us at <a href="mailto:info@sustainablepeterborough.ca">info@sustainablepeterborough.ca</a></p>
 graph_color_headline: '#004466'
 graph_color_headline_high_contrast: '#55a6e5'
 graph_color_set: accessible
