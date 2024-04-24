@@ -121,7 +121,7 @@ var translations = {
         
         Indicator 1.1.1 -
         
-        Proportion of the population living below the international poverty line by sex, age, employment status and geographic location (urban/rural) - Indicators For The Sustainable Development Goals
+        Poverty rate, as measured by Canada’s official poverty line - Indicators For The Sustainable Development Goals
     </title>
 
 
@@ -145,7 +145,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20240424204254">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20240424211149">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -355,7 +355,7 @@ data-event-label="high"
                         
                         Indicator 1.1.1
                         
-                        <span class="lead-copy">Proportion of the population living below the international poverty line by sex, age, employment status and geographic location (urban/rural)</span>
+                        <span class="lead-copy">Poverty rate, as measured by Canada’s official poverty line</span>
                     </h1>
                 </div>
             </div>
@@ -399,7 +399,7 @@ data-event-label="high"
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Geography&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Canada&quot;,&quot;Atlantic provinces&quot;,&quot;Newfoundland and Labrador&quot;,&quot;Prince Edward Island&quot;,&quot;Nova Scotia&quot;,&quot;New Brunswick&quot;,&quot;Quebec&quot;,&quot;Ontario&quot;,&quot;Prairie provinces&quot;,&quot;Manitoba&quot;,&quot;Saskatchewan&quot;,&quot;Alberta&quot;,&quot;British Columbia&quot;,&quot;Québec, Quebec&quot;,&quot;Montréal, Quebec&quot;,&quot;Ottawa-Gatineau, Ontario/Quebec&quot;,&quot;Toronto, Ontario&quot;,&quot;Winnipeg, Manitoba&quot;,&quot;Calgary, Alberta&quot;,&quot;Edmonton, Alberta&quot;,&quot;Vancouver, British Columbia&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Geography&quot;},{&quot;name&quot;:&quot;Persons in low income&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Persons under 18 years&quot;,&quot;Persons 18 to 64 years&quot;,&quot;Persons 65 years and over&quot;,&quot;Males&quot;,&quot;Males, under 18 years&quot;,&quot;Males, 18 to 64 years&quot;,&quot;Males, 65 years and over&quot;,&quot;Females&quot;,&quot;Females, under 18 years&quot;,&quot;Females, 18 to 64 years&quot;,&quot;Females, 65 years and over&quot;,&quot;All persons&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Persons in low income&quot;},{&quot;name&quot;:&quot;GeoCode&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;GeoCode&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Geography&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Canada&quot;,&quot;Ontario&quot;,&quot;Asphodel-Norwood&quot;,&quot;Otonabee-South Monaghan&quot;,&quot;Hiawatha First Nation&quot;,&quot;Cavan Monaghan&quot;,&quot;Peterborough (City)&quot;,&quot;Selwyn&quot;,&quot;Curve Lake First Nation&quot;,&quot;Douro-Dummer&quot;,&quot;Havelock-Belmont-Methuen&quot;,&quot;North Kawartha&quot;,&quot;Trent Lakes&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Geography&quot;},{&quot;name&quot;:&quot;Gender&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Total (all genders)&quot;,&quot;Men+&quot;,&quot;Women+&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Gender&quot;},{&quot;name&quot;:&quot;Age&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Total (all ages)&quot;,&quot;0 to 17 years&quot;,&quot;18 to 24 years&quot;,&quot;25 to 54 years&quot;,&quot;55 to 64 years&quot;,&quot;65 years and over&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Age&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="[]"
   data-proxy=""
@@ -434,165 +434,15 @@ data-event-label="high"
   <div id="datatables">
 
     
-    <a role="button" href="https://sustainablepeterborough-staging.github.io/data/en/headline/1-1-1.csv" class="btn btn-primary btn-download" download="indicator_1-1-1.csv" tabindex="0" role="button">Download headline data (.csv)</a>
-    
     <a role="button" href="https://sustainablepeterborough-staging.github.io/data/en/data/1-1-1.csv" class="btn btn-primary btn-download" download='indicator_1-1-1.csv' tabindex='0' role='button'>Download source data (.csv)</a>
 
     <p class="no-js-disaggregation-hint">Download source data for disaggregations (.csv)</p>
 
     
-    <h3>Headline data</h3>
-    <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Proportion of the population living below the international poverty line by sex, age, employment status and geographic location (urban/rural)</caption>
-      <thead>
-        
-        
-        <th scope="col">Year</th>
-        
-        
-        
-        <th scope="col">Value</th>
-        
-        
-        
-        <th scope="col" class="table-value">GeoCode</th>
-        
-        
-      </thead>
-      <tbody>
-        
-        <tr>
-          
-          
-          <td>2015</td>
-          
-          
-          
-          <td>14.5</td>
-          
-          
-          
-          <td class="table-value"></td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2016</td>
-          
-          
-          
-          <td>12.9</td>
-          
-          
-          
-          <td class="table-value"></td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2017</td>
-          
-          
-          
-          <td>11.9</td>
-          
-          
-          
-          <td class="table-value"></td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2018</td>
-          
-          
-          
-          <td>11.2</td>
-          
-          
-          
-          <td class="table-value"></td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2019</td>
-          
-          
-          
-          <td>10.3</td>
-          
-          
-          
-          <td class="table-value"></td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2020</td>
-          
-          
-          
-          <td>6.4</td>
-          
-          
-          
-          <td class="table-value"></td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2021</td>
-          
-          
-          
-          <td>7.4</td>
-          
-          
-          
-          <td class="table-value"></td>
-          
-          
-        </tr>
-        
-      </tbody>
-    </table>
+    <h3>No headline data available</h3>
     
   </div>
 
-  
-  <div id="datatableFooter">
-    
-    <p>Source: Statistics Camada</p>
-    
-    
-    <p>Geographical Area: </p>
-    
-    
-    <p>Unit of Measurement: Percentage</p>
-    
-    
-    <p>Footnote: </p>
-    
-  </div>
   
 
 </div>
@@ -868,7 +718,7 @@ data-event-label="Change to Local Metadata tab"
         
         <div role="tabpanel" class="tab-pane active" id="national">
             <article>
-                <p>This table provides metadata for a proxy local indicator closest to the corresponding global SDG indicator, as supported by data availability, or a newly established indicator deemed meaningful to the local context in support of this specific SDG. Please note that even when data supporting the global SDG indicator is fully available from local or Canadian statistics, this table should be consulted for additional information.</p>
+                <p>The table below contains more information regarding the indicator. This is a proxy local indicator closest to the corresponding global SDG indicator, as supported by data availability. Please note that even when data supporting the global SDG indicator is fully available from local or Canadian statistics, this table should be consulted for additional information.</p>
 
                 <table class="table metadata-content">
   <tbody>
@@ -881,8 +731,19 @@ data-event-label="Change to Local Metadata tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Indicator information </th>
+        <td>
           
+            <p><em>FREE FORM TEXT</em> and some more</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
@@ -891,7 +752,7 @@ data-event-label="Change to Local Metadata tab"
         <th scope="row">Goal </th>
         <td>
           
-            <p>Goal 1: End poverty in all its forms everywhere</p>
+            <p>SDG_GOAL</p>
 
           
         </td>
@@ -907,7 +768,7 @@ data-event-label="Change to Local Metadata tab"
         <th scope="row">Target </th>
         <td>
           
-            <p>Target 1.1: By 2030, eradicate extreme poverty for all people everywhere, currently measured as people living on less than $1.25 a day</p>
+            <p>SDG_TARGET</p>
 
           
         </td>
@@ -923,7 +784,7 @@ data-event-label="Change to Local Metadata tab"
         <th scope="row">Indicator </th>
         <td>
           
-            <p>Indicator 1.1.1: Proportion of the population living below the international poverty line by sex, age, employment status and geographic location (urban/rural)</p>
+            <p>SDG_INDICATOR</p>
 
           
         </td>
@@ -931,6 +792,26 @@ data-event-label="Change to Local Metadata tab"
         
       
   
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
       
       
       
@@ -996,19 +877,10 @@ data-event-label="Change to Local Metadata tab"
       
       
       <tr>
-        <th scope="row">Definition and concepts </th>
+        <th scope="row">Data sources </th>
         <td>
           
-            <h2 id="definition">Definition:</h2>
-<p>The proportion of the employed population below the international poverty line of US$1.90 per day, also referred to as the working poverty rate, is defined as the share of employed persons living in households with per-capita consumption or income that is below the international poverty line of US$1.90.</p>
-<h2 id="concepts">Concepts:</h2>
-<p><strong>Employment:</strong> All persons of working age who, during a short reference period (one week), were engaged in any activity to produce goods or provide services for pay or profit.</p>
-
-<p><strong>Poverty Line:</strong> Threshold below which individuals in the reference population are considered poor and above which they are considered non-poor. The threshold is generally defined as the per-capita monetary requirements an individual needs to afford the purchase of a basic bundle of goods and services. For the purpose of this indicator, an absolute international poverty line of US$1.90 per day is used.</p>
-
-<p><strong>Household in poverty:</strong> Households are defined as poor if their income or consumption expenditure is below the poverty line taking into account the number of household members and composition (e.g., number of adults and children).</p>
-
-<p><strong>Working poor:</strong> Employed persons living in households that are classified as poor, that is, that have income or consumption levels below the poverty line used for measurement.</p>
+            <p>SOURCE_TYPE</p>
 
           
         </td>
@@ -1016,26 +888,6 @@ data-event-label="Change to Local Metadata tab"
         
       
   
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
       
       
       
@@ -1134,7 +986,7 @@ data-event-label="Change to Local Metadata tab"
         <th scope="row">Data last updated </th>
         <td>
           
-            Apr 06, 2024
+            Apr 24, 2024
           
         </td>
         </tr>
@@ -1149,7 +1001,7 @@ data-event-label="Change to Local Metadata tab"
         <th scope="row">Metadata last updated </th>
         <td>
           
-            Apr 08, 2024
+            Apr 24, 2024
           
         </td>
         </tr>
@@ -1325,12 +1177,12 @@ data-event-label="Change to Local Metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/site/assets/js/sdg.js?v=20240424204254'></script>
+<script src='/site/assets/js/sdg.js?v=20240424211149'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20240424204254"></script><script>
+    <script src="/site/assets/js/custom.js?v=20240424211149"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
