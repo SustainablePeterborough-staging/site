@@ -84,12 +84,12 @@ empty_metadata_placeholder_sources: ''
 environment: staging
 footer_language_toggle: none
 footer_menu:
-  - path: /contact-us
-    translation_key: menu.contact_us
-  - path: 'https://twitter.com/sustainableptbo'
-    translation_key: general.twitter
-  - path: 'https://facebook.com/sustainablepeterborough'
-    translation_key: general.facebook
+#  - path: /contact-us
+#    translation_key: menu.contact_us
+#  - path: 'https://twitter.com/sustainableptbo'
+#    translation_key: general.twitter
+#  - path: 'https://facebook.com/sustainablepeterborough'
+#    translation_key: general.facebook
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
 frontpage_cards:
@@ -119,14 +119,14 @@ frontpage_goals_grid:
 #  title: frontpage.heading_short
 #  description: frontpage.instructions_shorter
   title: >-
-    <p>Welcome to the Greater Peterborough Area's Indicator Framework Data Dashboard for tracking and advancing progress towards the Sustainable Development Goals.</p>
+    <p>Welcome to the Greater Peterborough Area's Indicator Framework Data Dashboard</p>
   description: >-
-    <p>Select each goal to view available data for the Greater Peterborough Area's global and localized indicators. This data platform is constantly evolving and developing so check back often. To submit data, please email us at <a href="mailto:info@sustainablepeterborough.ca">info@sustainablepeterborough.ca</a></p>
+    <p>This framework was established for tracking and advancing local progress towards the Sustainable Development Goals. Select each goal to view available data for the global and localized indicators. The Greater Peterborough Area encompasses the City of Peterborough, Peterborough County (upper tier municipality representing the Townships of Asphodel-Norwood, Cavan Monaghan, Douro-Dummer, Havelock-Belmont-Methuen, North Kawartha, Otonabee-South Monaghan, Selwyn, and the Municipality of Trent Lakes), Curve Lake and Hiawatha First Nations. While we aim to source and capture inclusive data across the entire region, sometimes data is unavailable or incomplete and is identified as such where published. This data platform is constantly evolving and developing so check back often. To submit data, please email us at <a href="mailto:info@sustainablepeterborough.ca">info@sustainablepeterborough.ca</a></p>
 frontpage_introduction_banner:
   title: frontpage.intro_title
 #description: frontpage.intro_body
   description: >-
-    <p>The <a href="https://www.un.org/sustainabledevelopment/sustainable-development-goals/">Sustainable Development Goals (SDGs)</a> are a universal call to action to end poverty, protect the planet and improve the lives and prospects of everyone, everywhere. The 17 Goals were adopted by all UN Member States in 2015, as part of the <a href="https://sdgs.un.org/2030agenda">2030 Agenda for Sustainable Development</a>. In Canada, the <a href="https://sdgcif-data-canada-oddcic-donnee.github.io/">Canadian Indicator Framework</a> was established by Statistics Canada to support <a href="https://www.canada.ca/en/employment-social-development/programs/agenda-2030/moving-forward.html">Canada's implementation of the SDGs</a>. Locally, Sustainable Peterborough's mandate is centered around helping the Greater Peterborough Area's community implement and track progress towards the SDGs, as identified in our <a href="https://sustainablepeterborough.ca/wp-content/uploads/2022/04/Sustainable-Peterborough-Strategic-Plan-Final-Apr.-2022-compressed.pdf">Strategic Plan</a>, created with stakeholder engagement and direction from the City of Peterborough and Peterborough County. Sustainable Peterborough thus established this local framework in our efforts to best support and align with the Canadian Federal Government's SDG tracking and advancing efforts.</p>
+    <p>The <a href="https://www.un.org/sustainabledevelopment/sustainable-development-goals/">Sustainable Development Goals (SDGs)</a> are a universal call to action to end poverty, protect the planet and improve the lives and prospects of everyone, everywhere. The 17 Goals were adopted by all UN Member States in 2015, as part of the <a href="https://sdgs.un.org/2030agenda">2030 Agenda for Sustainable Development</a>. The <a href="https://sdgcif-data-canada-oddcic-donnee.github.io/">Canadian Indicator Framework</a> was established by Statistics Canada to support <a href="https://www.canada.ca/en/employment-social-development/programs/agenda-2030/moving-forward.html">Canada's implementation of the SDGs</a>. Locally, Sustainable Peterborough's (SP) mandate is centered around helping the Greater Peterborough Area community implement and track progress towards the SDGs, as identified in our <a href="https://sustainablepeterborough.ca/wp-content/uploads/2022/04/Sustainable-Peterborough-Strategic-Plan-Final-Apr.-2022-compressed.pdf">Strategic Plan</a>, created with stakeholder engagement and direction from the City of Peterborough and Peterborough County. SP also established this local framework to support and align with the Canadian Federal Government's SDG achievement efforts.</p>
 goal_image_base: 'https://open-sdg.org/sdg-translations/assets/img/goals'
 goal_image_extension: ''
 goals_page:
@@ -233,9 +233,9 @@ metadata_tabs:
 #  - scope: global
 #    title: indicator.global_metadata
 #    description: indicator.global_metadata_blurb
-  - scope: sources
-    title: indicator.sources
-    description: ''
+#  - scope: sources
+#    title: indicator.sources
+#    description: ''
 meta_tags: []
 news:
   category_links: false
