@@ -895,10 +895,18 @@
         },
         {
           "id": "8-5-2",
-          "title": "Poverty rate, as measured by Canada’s official poverty line",
+          "title": "Labour force status",
           "description": "",
           "keywords": "",
           "href": "/site/8-5-2/",
+          "status": "complete"
+        },
+        {
+          "id": "8-5-3",
+          "title": "Main mode of commuting by commuting duration, time leaving for work, age and gender",
+          "description": "",
+          "keywords": "",
+          "href": "/site/8-5-3/",
           "status": "complete"
         },
         {
