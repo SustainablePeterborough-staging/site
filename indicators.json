@@ -6,14 +6,6 @@
       "indicators": [
         
         {
-          "id": "1-1",
-          "title": "global_indicators.1-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/1-1/",
-          "status": "notstarted"
-        },
-        {
           "id": "1-1-1",
           "title": "Poverty rate, as measured by Canada’s official poverty line",
           "description": "",
@@ -903,11 +895,11 @@
         },
         {
           "id": "8-5-2",
-          "title": "Unemployment rate, by sex, age and persons with disabilities",
+          "title": "Poverty rate, as measured by Canada’s official poverty line",
           "description": "",
           "keywords": "",
           "href": "/site/8-5-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-6-1",
