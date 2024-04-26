@@ -145,7 +145,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20240426205859">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20240426210728">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -399,7 +399,7 @@ data-event-label="high"
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Geography&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Canada&quot;,&quot;Ontario&quot;,&quot;Asphodel-Norwood&quot;,&quot;Otonabee-South Monaghan&quot;,&quot;Hiawatha First Nation&quot;,&quot;Cavan Monaghan&quot;,&quot;Peterborough&quot;,&quot;Selwyn&quot;,&quot;Curve Lake First Nation&quot;,&quot;Douro-Dummer&quot;,&quot;Havelock-Belmont-Methuen&quot;,&quot;North Kawartha&quot;,&quot;Trent Lakes&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Geography&quot;},{&quot;name&quot;:&quot;Labour force status&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Participation rate&quot;,&quot;Employment rate&quot;,&quot;Unemployment rate&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Labour force status&quot;},{&quot;name&quot;:&quot;Age&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Total (all ages)&quot;,&quot;15 to 24 years&quot;,&quot;25 to 34 years&quot;,&quot;35 to 44 years&quot;,&quot;45 to 54 years&quot;,&quot;55 to 64 years&quot;,&quot;65 years and over&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Age&quot;},{&quot;name&quot;:&quot;Gender&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Total (all genders)&quot;,&quot;Men+&quot;,&quot;Women+&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Gender&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Geography&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Canada&quot;,&quot;Ontario&quot;,&quot;Asphodel-Norwood&quot;,&quot;Otonabee-South Monaghan&quot;,&quot;Hiawatha First Nation&quot;,&quot;Cavan Monaghan&quot;,&quot;Peterborough (City)&quot;,&quot;Selwyn&quot;,&quot;Curve Lake First Nation&quot;,&quot;Douro-Dummer&quot;,&quot;Havelock-Belmont-Methuen&quot;,&quot;North Kawartha&quot;,&quot;Trent Lakes&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Geography&quot;},{&quot;name&quot;:&quot;Labour force status&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Participation rate&quot;,&quot;Employment rate&quot;,&quot;Unemployment rate&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Labour force status&quot;},{&quot;name&quot;:&quot;Age&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Total (all ages)&quot;,&quot;15 to 24 years&quot;,&quot;25 to 34 years&quot;,&quot;35 to 44 years&quot;,&quot;45 to 54 years&quot;,&quot;55 to 64 years&quot;,&quot;65 years and over&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Age&quot;},{&quot;name&quot;:&quot;Gender&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Total (all genders)&quot;,&quot;Men+&quot;,&quot;Women+&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Gender&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="[]"
   data-proxy=""
@@ -789,19 +789,8 @@ data-event-label="Change to Local Metadata tab"
       
       
       
-      
-      <tr>
-        <th scope="row">Additional Information </th>
-        <td>
-          
-            <p>The Market Basket Measure (MBM) is based on the cost of a specific basket of goods and services representing a modest, basic standard of living. It includes the costs of food, clothing, shelter, transportation and other items for a reference family. These costs are compared to the disposable income of families to determine whether or not they fall below the poverty line.</p>
-
-          
-        </td>
-        </tr>
         
-      
-  
+          
       
       
       
@@ -810,7 +799,7 @@ data-event-label="Change to Local Metadata tab"
         <th scope="row">Qualitative data </th>
         <td>
           
-            <p>not available at this time</p>
+            <p>Not available at this time</p>
 
           
         </td>
@@ -926,7 +915,7 @@ data-event-label="Change to Local Metadata tab"
         <th scope="row">Data sources </th>
         <td>
           
-            <p><a href="https://www150.statcan.gc.ca/t1/tbl1/en/cv!recreate.action?pid=9810048501&amp;selectedNodeIds=1D2265,1D2351,1D2352,1D2353,1D2354,1D2355,1D2356,1D2357,1D2358,1D2359,1D2360,1D2361,2D6,2D7,2D8,3D2,3D12,3D13&amp;checkedLevels=0D1,2D1,2D4,3D1,3D2&amp;refPeriods=20210101,20210101&amp;dimensionLayouts=layout3,layout2,layout2,layout2,layout2&amp;vectorDisplay=false">Statistics Canada</a> 2021 Census - 25% Sample data</p>
+            <p><a target="_blank" href="https://www150.statcan.gc.ca/t1/tbl1/en/cv!recreate.action?pid=9810048501&amp;selectedNodeIds=1D2265,1D2351,1D2352,1D2353,1D2354,1D2355,1D2356,1D2357,1D2358,1D2359,1D2360,1D2361,2D6,2D7,2D8,3D2,3D12,3D13&amp;checkedLevels=0D1,2D1,2D4,3D1,3D2&amp;refPeriods=20210101,20210101&amp;dimensionLayouts=layout3,layout2,layout2,layout2,layout2&amp;vectorDisplay=false">Statistics Canada</a> 2021 Census - 25% Sample data</p>
 
           
         </td>
@@ -1032,7 +1021,7 @@ data-event-label="Change to Local Metadata tab"
         <th scope="row">Data last updated </th>
         <td>
           
-            Apr 25, 2024
+            Apr 26, 2024
           
         </td>
         </tr>
@@ -1047,7 +1036,7 @@ data-event-label="Change to Local Metadata tab"
         <th scope="row">Metadata last updated </th>
         <td>
           
-            Apr 25, 2024
+            Apr 26, 2024
           
         </td>
         </tr>
@@ -1223,12 +1212,12 @@ data-event-label="Change to Local Metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/site/assets/js/sdg.js?v=20240426205859'></script>
+<script src='/site/assets/js/sdg.js?v=20240426210728'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20240426205859"></script><script>
+    <script src="/site/assets/js/custom.js?v=20240426210728"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

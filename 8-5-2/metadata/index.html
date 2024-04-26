@@ -140,7 +140,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20240426205859">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20240426210728">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -499,23 +499,11 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_INDICATOR_GEOCOV'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('SDG_INDICATOR_ADDINFO', "The Market Basket Measure (MBM) is based on the cost of a specific basket of goods and services representing a modest, basic standard of living. It includes the costs of food, clothing, shelter, transportation and other items for a reference family. These costs are compared to the disposable income of families to determine whether or not they fall below the poverty line.");
-        var propertyEditor = editor.getEditor('root.SDG_INDICATOR_ADDINFO');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: SDG_INDICATOR_ADDINFO');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_INDICATOR_ADDINFO'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('SDG_INDICATOR_QUAL', "not available at this time");
+        var currentValue = normalizeCurrentValue('SDG_INDICATOR_QUAL', "Not available at this time");
         var propertyEditor = editor.getEditor('root.SDG_INDICATOR_QUAL');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -569,7 +557,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('SOURCE_TYPE', "<a href=\"https://www150.statcan.gc.ca/t1/tbl1/en/cv!recreate.action?pid=9810048501&selectedNodeIds=1D2265,1D2351,1D2352,1D2353,1D2354,1D2355,1D2356,1D2357,1D2358,1D2359,1D2360,1D2361,2D6,2D7,2D8,3D2,3D12,3D13&checkedLevels=0D1,2D1,2D4,3D1,3D2&refPeriods=20210101,20210101&dimensionLayouts=layout3,layout2,layout2,layout2,layout2&vectorDisplay=false\">Statistics Canada</a> 2021 Census - 25% Sample data");
+        var currentValue = normalizeCurrentValue('SOURCE_TYPE', "<a target=\"_blank\" href=\"https://www150.statcan.gc.ca/t1/tbl1/en/cv!recreate.action?pid=9810048501&selectedNodeIds=1D2265,1D2351,1D2352,1D2353,1D2354,1D2355,1D2356,1D2357,1D2358,1D2359,1D2360,1D2361,2D6,2D7,2D8,3D2,3D12,3D13&checkedLevels=0D1,2D1,2D4,3D1,3D2&refPeriods=20210101,20210101&dimensionLayouts=layout3,layout2,layout2,layout2,layout2&vectorDisplay=false\">Statistics Canada</a> 2021 Census - 25% Sample data");
         var propertyEditor = editor.getEditor('root.SOURCE_TYPE');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -619,7 +607,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('national_data_updated_date', "2024-04-25");
+        var currentValue = normalizeCurrentValue('national_data_updated_date', "2024-04-26");
         var propertyEditor = editor.getEditor('root.national_data_updated_date');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -633,7 +621,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('national_metadata_updated_date', "2024-04-25");
+        var currentValue = normalizeCurrentValue('national_metadata_updated_date', "2024-04-26");
         var propertyEditor = editor.getEditor('root.national_metadata_updated_date');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -767,12 +755,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/site/assets/js/sdg.js?v=20240426205859'></script>
+<script src='/site/assets/js/sdg.js?v=20240426210728'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20240426205859"></script><script>
+    <script src="/site/assets/js/custom.js?v=20240426210728"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
