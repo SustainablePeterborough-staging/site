@@ -130,11 +130,11 @@ frontpage_introduction_banner:
 goal_image_base: 'https://open-sdg.org/sdg-translations/assets/img/goals'
 goal_image_extension: ''
 goals_page:
-  title: general.goals
+#  title: general.goals
+  title: Sustainable Development Goals
 #  description: frontpage.instructions_shorter
   description: >-
-    <p>Select each goal to view available data for the Greater Peterborough Area's global and localized indicators. This data platform is constantly evolving and developing so check back often. To submit data, please email us at <a href="mailto:info@sustainablepeterborough.ca">info@sustainablepeterborough.ca</a></p>
-graph_color_headline: '#004466'
+    <p>This framework was established for tracking and advancing local progress towards the Sustainable Development Goals. Select each goal to view available data for the global and localized indicators. The Greater Peterborough Area encompasses the City of Peterborough, Peterborough County (upper tier municipality representing the Townships of Asphodel-Norwood, Cavan Monaghan, Douro-Dummer, Havelock-Belmont-Methuen, North Kawartha, Otonabee-South Monaghan, Selwyn, and the Municipality of Trent Lakes), Curve Lake and Hiawatha First Nations. While we aim to source and capture inclusive data across the entire region, sometimes data is unavailable or incomplete and is identified as such where published. This data platform is constantly evolving and developing so check back often. To submit data, please <a href="mailto:info@sustainablepeterborough.ca">email us</a></p>
 graph_color_headline_high_contrast: '#55a6e5'
 graph_color_set: accessible
 graph_color_list: []
