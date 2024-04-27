@@ -47,10 +47,6 @@ create_goals:
         ## Sustainable:  
 
         #### Sustainable communities meet the needs of the present without compromising the environmental, social, and economic interests of the present and future generations, and have strong social and physical infrastructures.  
-      targets:
-        - number: 11.1
-          name: This is a name
-        
 create_indicators:
   previous_next_links: false
 create_pages:
