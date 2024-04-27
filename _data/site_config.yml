@@ -286,3 +286,9 @@ use_new_config_forms: true
 validate_indicator_config: false
 validate_site_config: false
 x_axis_label: ''
+targets:
+  goal_number: 1
+    - name: <b>Ambition</b> - Reduce local poverty in all its forms
+      number: 1.1
+      slug: 1-1
+    
