@@ -47,6 +47,9 @@ create_goals:
         ## Sustainable:  
 
         #### Sustainable communities meet the needs of the present without compromising the environmental, social, and economic interests of the present and future generations, and have strong social and physical infrastructures.  
+      targets:
+        - number: 11.1
+          name: This is a name
         
 create_indicators:
   previous_next_links: false
@@ -286,9 +289,3 @@ use_new_config_forms: true
 validate_indicator_config: false
 validate_site_config: false
 x_axis_label: ''
-targets:
-  goal_number: 1
-    - name: <b>Ambition</b> - Reduce local poverty in all its forms
-      number: 1.1
-      slug: 1-1
-    
