@@ -229,7 +229,7 @@ metadata_tabs:
     title: 'Local Metadata'
 #    description: indicator.national_metadata_blurb
 #    description: 'The table below contains more information regarding the indicator. This is a proxy local indicator closest to the corresponding global SDG indicator, as supported by data availability. Please note that even when data supporting the global SDG indicator is fully available from local or Canadian statistics, this table should be consulted for additional information.'
-    description: 'The table below contains more information regarding this indicator'
+    description: 'The table below contains more information regarding this indicator.'
 #  - scope: global
 #    title: indicator.global_metadata
 #    description: indicator.global_metadata_blurb
