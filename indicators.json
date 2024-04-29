@@ -2126,4 +2126,20 @@
           "status": "notstarted"
         }]
     }
+  },
+  {
+    "goal": {
+      "id": "indicate_8",
+      "title": "global_goals.indicate_8-title",
+      "indicators": [
+        
+        {
+          "id": "indicate_8-5-4",
+          "title": "global_indicators.indicate_8-5-4-title",
+          "description": "",
+          "keywords": "",
+          "href": "/site/indicate_8-5-4/",
+          "status": "complete"
+        }]
+    }
   }]
