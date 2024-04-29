@@ -145,7 +145,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20240429215559">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20240429231132">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -322,7 +322,7 @@ layout-indicator-iframe
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Place of residence&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Asphodel-Norwood&quot;,&quot;Otonabee-South Monaghan&quot;,&quot;Hiawatha First Nation&quot;,&quot;Cavan Monaghan&quot;,&quot;Peterborough&quot;,&quot;Selwyn&quot;,&quot;Curve Lake First Nation&quot;,&quot;Douro-Dummer&quot;,&quot;Havelock-Belmont-Methuen&quot;,&quot;North Kawartha&quot;,&quot;Trent Lakes&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Place of residence&quot;},{&quot;name&quot;:&quot;Place of work&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Belleville (CY), Ont.&quot;,&quot;Madoc (TP), Ont.&quot;,&quot;Cobourg (T), Ont.&quot;,&quot;Alnwick/Haldimand (TP), Ont.&quot;,&quot;Trent Hills (MU), Ont.&quot;,&quot;Asphodel-Norwood (TP), Ont.&quot;,&quot;Otonabee-South Monaghan (TP), Ont.&quot;,&quot;Cavan Monaghan (TP), Ont.&quot;,&quot;Peterborough (City)(CY), Ont.&quot;,&quot;Selwyn (TP), Ont.&quot;,&quot;Douro-Dummer (TP), Ont.&quot;,&quot;Havelock-Belmont-Methuen (TP), Ont.&quot;,&quot;Pickering (CY), Ont.&quot;,&quot;Oshawa (CY), Ont.&quot;,&quot;Clarington (MU), Ont.&quot;,&quot;Scugog (TP), Ont.&quot;,&quot;Toronto (C), Ont.&quot;,&quot;Ottawa (CV), Ont.&quot;,&quot;Port Hope (MU), Ont.&quot;,&quot;Kawartha Lakes (CY), Ont.&quot;,&quot;Ajax (T), Ont.&quot;,&quot;Whitby (T), Ont.&quot;,&quot;Uxbridge (TP), Ont.&quot;,&quot;Markham (CY), Ont.&quot;,&quot;Mississauga (CY), Ont.&quot;,&quot;Oakville (T), Ont.&quot;,&quot;Hiawatha First Nation (IRI), Ont.&quot;,&quot;Hamilton (TP), Ont.&quot;,&quot;Vaughan (CY), Ont.&quot;,&quot;Kingston (CY), Ont.&quot;,&quot;Deseronto (T), Ont.&quot;,&quot;Quinte West (CY), Ont.&quot;,&quot;Stirling-Rawdon (TP), Ont.&quot;,&quot;Centre Hastings (MU), Ont.&quot;,&quot;Marmora and Lake (MU), Ont.&quot;,&quot;Bancroft (T), Ont.&quot;,&quot;Cramahe (TP), Ont.&quot;,&quot;Curve Lake First Nation (IRI), Ont.&quot;,&quot;North Kawartha (TP), Ont.&quot;,&quot;Trent Lakes (MU), Ont.&quot;,&quot;Brock (TP), Ont.&quot;,&quot;Richmond Hill (T), Ont.&quot;,&quot;Whitchurch-Stouffville (T), Ont.&quot;,&quot;Aurora (T), Ont.&quot;,&quot;Newmarket (T), Ont.&quot;,&quot;Brampton (CY), Ont.&quot;,&quot;Guelph (CY), Ont.&quot;,&quot;Burlington (CY), Ont.&quot;,&quot;Hamilton (C), Ont.&quot;,&quot;Barrie (CY), Ont.&quot;,&quot;Muskoka Lakes (TP), Ont.&quot;,&quot;North Bay (CY), Ont.&quot;,&quot;Bracebridge (T), Ont.&quot;,&quot;Highlands East (MU), Ont.&quot;,&quot;Minden Hills (TP), Ont.&quot;,&quot;Georgina (T), Ont.&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Place of work&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="[]"
   data-proxy=""
@@ -734,12 +734,12 @@ data-event-label="Change to Local Metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/site/assets/js/sdg.js?v=20240429215559'></script>
+<script src='/site/assets/js/sdg.js?v=20240429231132'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20240429215559"></script><script>
+    <script src="/site/assets/js/custom.js?v=20240429231132"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
