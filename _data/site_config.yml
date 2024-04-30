@@ -30,7 +30,8 @@ create_goals:
 #  goals: []
   goals:
     - goal: 11
-      heading: Make cities and human settlements inclusive, safe, resilient and sustainable, keeping in mind our region's exceptional attributes, diversity, culture, heritage, unique composition of rural, urban, and an abundance of natural landscapes, while looking to the Seventh Generation Principle as an overarching guide. The Seventh Generation Principle is based on the ancient Iroquois philosophy that the decisions we make today should result in a sustainable world and sustainable relationships seven generations into the future.
+      heading: >-
+        ## Make cities and human settlements inclusive, safe, resilient and sustainable, keeping in mind our region's exceptional attributes, diversity, culture, heritage, unique composition of rural, urban, and an abundance of natural landscapes, while looking to the Seventh Generation Principle as an overarching guide. The Seventh Generation Principle is based on the ancient Iroquois philosophy that the decisions we make today should result in a sustainable world and sustainable relationships seven generations into the future.
       content:  >-
         #### **Inclusive:** Inclusive communities are where community members feel safe, respected, and comfortable in being themselves and expressing all aspects of their identities. It is a place where each person shares a sense of belonging with its other members.
 
