@@ -1,5 +1,4 @@
-# 
- analytics:
+analytics:
   ua: ''
   gtag: ''
   gtm: ''
@@ -285,3 +284,4 @@ use_new_config_forms: true
 validate_indicator_config: false
 validate_site_config: false
 x_axis_label: ''
+#
