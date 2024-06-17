@@ -1,4 +1,5 @@
-﻿analytics:
+# 
+ analytics:
   ua: ''
   gtag: ''
   gtm: ''
